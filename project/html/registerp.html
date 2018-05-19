@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册华为帐号</title>
+		<link rel="stylesheet" href="../css/other.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="../js/registerp.js" async="async"></script>
+	</head>
+	<body>
+		<header>
+			<div id="header">
+			<img src="https://hwid1.vmallres.com/CAS/up/rss_18/logos/head-top.png" />
+			<em>|</em>
+			<b>华为商城</b>
+			</div>
+		</header>
+		
+		<div id="main">
+			<form action="../php/registerp.php"  method="post">
+			<div id="main_div">
+				<a href="registerp.html" class="phone active"><span></span><em>手机号</em></a>
+			    <a href="registere.html" class="emli"><span></span><em>电子邮箱</em></a>
+			    <span id="logn">已有华为帐号&nbsp;<a href="login.html">登录></a></span>
+			    
+			    <div id="div" class="clear">
+			    	<p><span>国&nbsp;家&nbsp;/&nbsp;地&nbsp;区</span></p>
+			    	<div>
+			    		 <span id="cn">中国<em class="triangle-down" id="san"></em></span>
+			    	</div>
+			    </div>
+			       
+			    <div id="div">
+			    	<p style="cursor: pointer;"><span>+86(中国)<em class="triangle-down" id="san2"></em></span></p>
+			    	<div>
+			    		<input type="text"  placeholder="请输入手机号" name="phonenum" id="phonenum"/>
+			    		<i></i>
+			    	</div>
+			    </div>
+			    
+			    <div id="div">
+			    	<p><span>验&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</span></p>
+			    	<div>
+			    		<input type="text" placeholder="请输入验证码" name="yzm" id="yzm"/>
+			    		<em id="suijishu">8947</em><li class="down">点击刷新:</li>
+			    		<i></i>
+			    	</div>
+			    </div>
+			    
+			    <div id="div">
+			    	<p><span>短&nbsp;信&nbsp;验&nbsp;证&nbsp;码</span></p>
+			    	<div>
+			    		<input type="text" placeholder="请输入短信验证码" name="num"/>
+			    		<i></i>
+			    	</div>
+			    </div>
+			    
+			    <div id="div">
+			    	<p><span>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</span></p>
+			    	<div>
+			    		<input type="password" placeholder="请输入密码" name="password" id="password1"/>
+			    		<i></i>
+			    	</div>
+			    </div>
+			    
+			    <div id="div">
+			    	<p><span>确&nbsp;&nbsp;认&nbsp;&nbsp;密&nbsp;&nbsp;码</span></p>
+			    	<div>
+			    		<input type="password" placeholder="请再次输入密码" name="passwordp" id="queren"/>
+			    		<i></i>
+			    	</div>
+			    </div>
+			</form>
+			     <input type="submit" name="submit" id="btn" value="注册" />
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,424 @@
+/*注册页面样式*/
+.clear:after{
+  clear: both;
+  content: '';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; 
+  }
+  
+*{
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 67px;
+	background:#333333;
+}
+#header{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+#header img{
+	margin-left: 4px;
+    margin-top: 12px;
+}
+#header>em{
+	font-size: 18px;
+    float: left;
+    color: #cccccc;
+    position: absolute;
+    left: 160px;
+    top:18px;
+}
+#header>b{
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	left: 180px;
+	top: 19px;
+	font-weight: normal;
+}
+body{
+	 background: #f2f2f2;
+}
+#main{
+	   width: 100%;
+	   position: relative;
+}
+#main_div{
+	width: 960px;
+	height: 600px;
+	background: #fff;
+	position: absolute;
+	top:65px;
+	left: 50%;
+	margin-left: -480px;
+	position: relative;
+}
+.phone{
+	display: block;
+	width: 145px;
+	height: 35px;
+	position: absolute;
+	left: 0;
+	top:-35px;
+	position: relative;
+}
+.phone em{
+	position: absolute;
+	color: #fff;
+	font-size: 16px;
+	left: 60px;
+	top: 50%;
+	margin-top: -12px;
+	
+}
+.phone span{
+	background: url(../images/reg-img01.png) no-repeat 0px -17px;
+	width: 14px;
+	height: 22px;
+	display: inline-block;
+	margin: 6px 20px 0 25px;
+}
+.emli{
+	display: block;
+	width: 145px;
+	height: 35px;
+	position: absolute;
+	left: 160px;
+	top: -35px;
+	background: blue;
+	
+}
+.emli span{
+    background: url(../images/reg-img01.png) no-repeat 0px 0px;
+	width: 22px;
+	height: 17px;
+	display: inline-block;
+	margin: 10px 20px 0 15px;
+}
+.emli em{
+	position: absolute;
+	color: #fff;
+	font-size: 16px;
+	left: 50px;
+	top: 50%;
+	margin-top: -12px;
+}
+.active{
+	    background: #B40707;
+}
+#logn{
+	position: absolute;
+	right: 0px;
+	top:-30px;
+	font-size: 14px;
+}
+#logn a:hover{
+	color: blue;
+}
+#div{
+    height: 42px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#div p{
+	text-align: center;
+	background: #f7f7f7;
+	height: 42px;
+	width: 120px;
+	position: relative;
+	float: left;
+	left:270px;
+	border-right: none;
+	border: 1px solid #d9d9d9;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+}
+#div div{
+	background: #f7f7f7;
+	float: left;
+	left: 270px;
+	position: relative;
+	height: 42px;
+	width: 300px;
+	border: 1px solid #d9d9d9;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+#div p span{
+    font-size: 14px;
+	color: #3A3A3A;
+	line-height: 42px;
+}
+#cn{
+	width:300px ;
+	height: 42px;
+	line-height: 42px;
+	cursor: pointer;
+	color: #3A3A3A;
+	padding-left: 20px;
+}
+#san{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+#san2{
+	margin-right: 10px;
+	margin-top: 15px;
+}
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 9px solid #A4A4A4;
+    float: right;
+}
+#div div input{
+	display: block;
+	outline:none ;
+	border: 0;
+	margin-left: 15px;
+	height: 22px;
+	margin-top: 10px;
+	background: #F2F2F2;
+	width:270px;
+}
+#btn{
+	display: block;
+	background-color: #B40707;
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -100px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+#div{
+	position: relative;
+}
+#div>div>i{
+	font-size: 12px;
+	display: block;
+	position: absolute;
+	width: 200px;
+	top: 10px;
+	left:330px;
+	text-align:left;
+	
+}
+#suijishu{
+	position: absolute;
+	top: 50px;
+	left:10px;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color: #CA141D;
+	cursor: pointer;
+	line-height: 20px;
+	border: 1px solid #CE2A32;
+}
+.down{
+	font-weight: 700;
+	height: 30px;
+	position: absolute;
+	top: 46px;
+	left:-70px;
+	line-height: 30px;
+	color: #B40707;
+}
+#top{
+	width: 100%;
+	height: 67px;
+	background:#EAEAEA;
+}
+#logo{
+	width: 998px;
+	margin: 0 auto;
+	position: relative;
+}
+#logo img{
+    margin-top: 12px;
+}
+#logo>em{
+	font-size: 18px;
+    float: left;
+    color: #cccccc;
+    position: absolute;
+    left: 175px;
+    top:25px;
+}
+#logo>b{
+	font-size: 18px;
+	color: ##333333;
+	position: absolute;
+	left: 195px;
+	top: 25px;
+	font-weight: normal;
+}
+#login{
+	background: #081638;
+}
+#loginimg{
+	margin: 0 auto;
+	background:url(../images/login_default_bg.png) no-repeat;
+	height: 590px;
+	width: 1130px;
+	position: relative;
+	
+}
+#dada{
+	width: 380px;
+	height: 460px;
+	background: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+}
+#zizi{
+	position: absolute;
+	bottom: 0;
+	width: 380px;
+	height: 460px;
+	background: #FFFFFF;
+	display: none;
+}
+#loginul{
+    position: relative;
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 380px;
+	height: 530px;
+	background: #FFFFFF;
+	
+}
+#loginul p{
+	width: 380px;
+	height: 20px;
+	margin-top: 30px;
+}
+#loginul>p>span{
+	display: inline-block;
+	width:189px; 
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.ddd{
+	color: red;
+}
+#loginul p span:nth-of-type(1){
+	border-right: 1px solid;
+	border-right-color: #A4A4A4;
+}
+#baocuo{
+	height: 30px;
+	margin-top: 20px;
+	color: red;
+	font-size: 14px;
+	margin-left: 25px;
+}
+#shoujihao{
+	outline: none;
+	border: 0;
+	background: #fff;
+	height: 30px;
+	margin-top: 8px;
+}
+#mima{
+	outline: none;
+	border: 0;
+	background: #fff;
+	height: 30px;
+	margin-top: 8px;
+}
+.boxnum{
+	width: 330px;
+	height: 46px;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0 auto;
+}
+.boxpas{
+	width: 330px;
+	height: 46px;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0 auto;
+}
+#cebox{
+	margin-left:25px;
+	margin-right: 5px;
+	margin-top: 20px;
+}
+#boxce{
+	height: 30px;
+	font-size: 12px;
+}
+#subbnt{
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	background: #B40707;
+	color: #fff;
+	width: 330px;
+	height: 44px;
+	border-radius: 20px;
+	margin:20px 0 0 25px;
+}
+#zizi{
+	position: relative;
+}
+#zizi div{
+	width: 160px;
+	height: 160px;
+	border: 1px solid #3A3A3A;
+	position: absolute;
+	left: 50%;
+	top:90px;
+	margin-left:-80px;
+}
+#zizi div img{
+	display: block;
+	margin: auto auto;
+	cursor: pointer;
+}
+#zizi .pa{
+	width: 300px;
+	position: absolute;
+	left: -70px;
+	top:200px;
+	font-size: 12px;
+	text-align: center;
+}
+#zizi .pb{
+	width: 300px;
+	position: absolute;
+	left: -70px;
+	top: 230px;
+	font-size: 12px;
+	text-align: center;
+}
+#zizi .pa b{
+	color: dodgerblue;
+	font-size: 12px;
+	border-right: none;
+}
